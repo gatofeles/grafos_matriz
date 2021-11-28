@@ -5,6 +5,8 @@
 class Pessoa{
     public:
         int id;
+        float pageRank = 0;
+        int numberOfFriends = 0;
         std::string name;
         std::string nickname;
 
